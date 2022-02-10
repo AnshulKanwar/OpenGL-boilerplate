@@ -17,7 +17,7 @@
 				"${workspaceFolder}/src/stb_image.cpp",
 				"${file}",
 				"-o",
-				"${workspaceFolder}/${fileBasenameNoExtension}"
+				"${fileDirname}/${fileBasenameNoExtension}"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
